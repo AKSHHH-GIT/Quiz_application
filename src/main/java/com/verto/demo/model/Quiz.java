@@ -31,6 +31,7 @@ public class Quiz {
         name = "quiz_question_mapping",
         joinColumns = @JoinColumn(name = "quiz_id"),
         inverseJoinColumns = @JoinColumn(name = "question_id")
+        // temporary change to test git commit
     )
     private List<Question> questions;
 }
